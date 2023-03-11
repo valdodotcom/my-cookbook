@@ -1,0 +1,110 @@
+<header>
+  <a href="#" id="top"><img src="https://icon-library.com/images/food-icon-white/food-icon-white-15.jpg" alt="My Cookbook"></a>
+
+  <nav>
+    <ul>
+      <li>
+        <a class="nav-link" href="#breakfast">Breakfast</a>
+        <ul class="submenu">
+          <li><a href="#pancakes" onClick="handleDisplay('pancakes')">Pancakes</a></li>
+          <li><a href="#waffles" onClick="handleDisplay('waffles')">Waffles</a></li>
+          <li><a href="#eggs-benedict" onClick="handleDisplay('eggs-benedict')">Eggs Benedict</a></li>
+          <li><a href="#french-toast" onClick="handleDisplay('french-toast')">French Toast</a></li>
+        </ul>
+      </li>
+      <li>
+        <a class="nav-link" href="#lunch-dinner">Lunch/Dinner</a>
+        <ul class="submenu">
+          <li><a href="#spaghetti" onClick="handleDisplay('spaghetti')">Spaghetti and Meatballs</a></li>
+          <li><a href="#chicken-alfredo" onClick="handleDisplay('chicken-alfredo')">Chicken Alfredo</a></li>
+          <li><a href="#taco-salad" onClick="handleDisplay('taco-salad')">Taco Salad</a></li>
+          <li><a href="#shepherds-pie" onClick="handleDisplay('shepherds-pie')">Shepherd's Pie</a></li>
+        </ul>
+      </li>
+      <li>
+        <a class="nav-link" href="#15-min-meals">15 Minute Meals</a>
+        <ul class="submenu">
+          <li><a href="#stir-fry" onClick="handleDisplay('stir-fry')">Stir Fry</a></li>
+          <li><a href="#quesadillas" onClick="handleDisplay('quesadillas')">Quesadillas</a></li>
+          <li><a href="#tuna-salad" onClick="handleDisplay('tuna-salad')">Tuna Salad</a></li>
+          <li><a href="#blt-sandwich" onClick="handleDisplay('blt-sandwich')">BLT Sandwich</a></li>
+          <li><a href="#scrambled-eggs" onClick="handleDisplay('scrambled-eggs')">Scrambled Eggs and Toast</a></li>
+        </ul>
+      </li>
+      <li>
+        <a class="nav-link" href="#dessert-snacks">Dessert/Snacks</a>
+        <ul class="submenu">
+          <li><a href="#cookies" onClick="handleDisplay('cookies')">Chocolate Chip Cookies</a></li>
+          <li><a href="#ice-cream" onClick="handleDisplay('ice-cream')">Ice Cream Sundae</a></li>
+          <li><a href="#popcorn" onClick="handleDisplay('popcorn')">Popcorn</a></li>
+          <li><a href="#brownies" onClick="handleDisplay('brownies')">Brownies</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main-doc">
+  <section class="main-section" id="about">
+    <h1>My Cookbook</h1>
+    <p>Welcome! This is a collection of recipes that I have put together to make my life easier as I move out from home. I created this site for myself, but I wanted to share it with others who might find it helpful as well.</p>
+    <p>All of the recipes here are easy to make and require minimal ingredients and equipment. Whether you're a student, a busy professional, or just looking for some inspiration in the kitchen, My Cookbook has something for you. From breakfast to dessert, and everything in between, there are plenty of delicious and simple recipes to try. So take a look around, find something that catches your eye, and start cooking!</p>
+  </section>
+  <section class="main-section" id="breakfast">
+    <h2>Breakfast</h2>
+    <ul class="food-list">
+      <li class="meals" onClick="handleDisplay('pancakes')">Pancakes</li>
+      <li class="meals" onClick="handleDisplay('waffles')">Waffles</li>
+      <li class="meals" onClick="handleDisplay('eggs-benedict')">Eggs Benedict</li>
+      <li class="meals" onClick="handleDisplay('french-toast')">French Toast</li>
+    </ul>
+
+    <section id="breakfast-container"></section>
+
+  </section>
+
+  <section class="main-section" id="lunch-dinner">
+    <h2>Lunch/Dinner</h2>
+    <ul class="food-list">
+      <li class="meals" onClick="handleDisplay('spaghetti')">Spaghetti and Meatballs</li>
+      <li class="meals" onClick="handleDisplay('chicken-alfredo')">Chicken Alfredo</li>
+      <li class="meals" onClick="handleDisplay('taco-salad')">Taco Salad</li>
+      <li class="meals" onClick="handleDisplay('shepherds-pie')">Shepherd's Pie</li>
+    </ul>
+
+    <section id="lunch-container"></section>
+
+  </section>
+
+  <section class="main-section" id="15-min-meals">
+    <h2>15 Minute Meals</h2>
+    <ul class="food-list">
+      <li class="meals" onClick="handleDisplay('stir-fry')">Stir Fry</li>
+      <li class="meals" onClick="handleDisplay('quesadillas')">Quesadillas</li>
+      <li class="meals" onClick="handleDisplay('tuna-salad')">Tuna Salad</li>
+      <li class="meals" onClick="handleDisplay('blt-sandwich')">BLT Sandwich</li>
+      <li class="meals" onClick="handleDisplay('scrambled-eggs')">Scrambled Eggs and Toast</li>
+    </ul>
+
+    <section id="fifteen-container"></section>
+
+  </section>
+
+  <section class="main-section" id="dessert-snacks">
+    <h2>Dessert/Snacks</h2>
+    <ul class="food-list">
+      <li class="meals" onClick="handleDisplay('cookies')">Chocolate Chip Cookies</li>
+      <li class="meals" onClick="handleDisplay('ice-cream')">Ice Cream Sundae</li>
+      <li class="meals" onClick="handleDisplay('popcorn')">Popcorn</li>
+      <li class="meals" onClick="handleDisplay('brownies')">Brownies</li>
+    </ul>
+    <section id="dessert-container">
+
+    </section>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2023 Valdo Abruquah</p>
+</footer>

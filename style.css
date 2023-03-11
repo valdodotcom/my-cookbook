@@ -1,0 +1,168 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-szie: 2rem;
+}
+
+/* Style for header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  background-color: #d24e01;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Style for cookbook logo */
+header img {
+  width: 40px;
+  height: auto;
+}
+
+/* Style for navigation links */
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  padding: 20px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: yellow;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #ffdfc9;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+li:hover .submenu {
+  top: 100%;
+  display: block;
+}
+
+.submenu li {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 3px 0;
+}
+
+.submenu li a:link {
+  text-decoration: none;
+  color: black;
+}
+.submenu li a:visited {
+  text-decoration: none;
+  color: black;
+}
+.submenu li a:hover {
+  text-decoration: none;
+  color: #d24e01;
+}
+.submenu li a:active {
+  text-decoration: none;
+}
+
+.main-section {
+  background-color: #f8f8f8;
+  padding: 50px;
+}
+
+.main-section h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.main-section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#about h1 {
+  padding-top: 100px;
+}
+
+.food-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main-section li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.food-list li:hover {
+  color: #ff4500;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+}
+
+.meals {
+  padding: 0 15px;
+}
+
+.one-recipe-toggle {
+  padding-top: 10px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  display: none;
+}
+
+.one-recipe-toggle img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+/*   margin-right: 10vw; */
+  margin-top: 45px;
+  float: right;
+}
